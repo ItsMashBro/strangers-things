@@ -54,7 +54,9 @@ function Sidenav() {
           <Divider style={{backgroundColor: '#404040'}}/>
           <NavItem>
             <NavIcon style={{paddingTop: 10}}>
-              <InfoOutlinedIcon style={iconStyle} />
+              <Link to="Profile">
+                <InfoOutlinedIcon style={iconStyle} />
+              </Link>
             </NavIcon>
             <NavText className="navText">
               <Link to="Profile">Profile</Link>
