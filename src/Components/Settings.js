@@ -26,6 +26,6 @@ const Settings = () => {
       backgroundColor: 'rgba(0,51,8, .5)',
       boxShadow: '1px 2px 9px #FF9933',
       borderRadius: 20,
-      marginTop: 50,
+      marginTop: 200,
       border: '1.5px solid black'
     }
